@@ -1,0 +1,50 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+########### Ignorar configuraciones del editor / sistemas
+### Visual Studio Code ###
+.vscode/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+
+# Ignorar archivos de configuracion sensibles con contraseñas y credenciales
+.env
+*.env
+
+#Ignorar datos locales y volúmenes de Docker
+postgres/
+.postgres/
+
+# Ignorar archivos generados por la compilación de Java / Maven
+target/
+*.class
+*.jar
+
